@@ -18,7 +18,7 @@ export const PersonSchema = {
     },
     relations: {},
     indices: {
-        IDX_UNQ_Person: {
+        IDX_TEST: {
             unique: false,
             columns: [
                 "FirstName",
